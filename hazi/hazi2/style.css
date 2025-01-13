@@ -1,0 +1,171 @@
+@import url(https://db.onlinewebfonts.com/c/3567d4a22b8d7e0d857a16df0afbaa1d?family=Curlz+MT);
+
+body {
+    background-color: #242424;
+}
+
+h1 {
+    font-family: "Curlz MT", serif;
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: #DFCF82;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #C1B372;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.container img:hover{
+    transform: scale(102%);
+}
+
+.creature {
+    width: 47%;
+    border: 2px solid #C2BBA1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    min-width: min-content;
+}
+
+.creature-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.creature-description {
+    margin-top: 0;
+}
+
+.creature-data {
+    width: 65%;
+    align-self: flex-start;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.ability-title, .ability-bar-container {
+    margin-bottom: 3px;
+}
+
+.ability-bar-container {
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.ability-title {
+    color: gray;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.ability-bar {
+    width: 100%;
+    animation-name: loadIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    transition: 0.5s;
+}
+
+@keyframes loadIn {
+    from{width: 0%}
+    to{width: 100%}
+}
+
+.bar {
+    height: 18px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bar--danger {
+    background-color: red;
+}
+.bar--intelligence {
+    background-color: mediumseagreen;
+}
+.bar--frequency {
+    background-color: rebeccapurple;
+}
+.bar--low {
+    width: 20%;
+}
+.bar--medium {
+    width: 60%
+}
+.bar--high {
+    width: 90%
+}
+
+#buy-ticket {
+    text-align: center;
+}
+
+#buy-ticket .price::before {
+    content: "$ ";
+}
+
+.price {
+    color: #EFF8D9;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buy {
+    font-size: 14px;
+    background: #FFD85F;
+    border: none;
+    height: 40px;
+    width: 15%;
+    text-transform: uppercase;
+    padding: 10px 100px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.buy:hover{
+    translate:0 -4px;
+    box-shadow: 0 16px 14px -12px rgb(96, 85, 38);
+}
+.buy:active{
+    background-color: #FFE4B0FF;
+    box-shadow: none;
+}
+
+
+@media  only screen and (max-width: 800px) {
+    body{
+        zoom: 50%;
+    }
+    .creature {
+        width: 100%;
+        border: 2px solid #C2BBA1;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 10px;
+        min-width: min-content;
+    }
+}

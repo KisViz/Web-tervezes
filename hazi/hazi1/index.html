@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+
+    <h1 id = "ajdi">Kreatív Tudás Egyeteme</h1>
+
+    <h2>Bemutatkozás</h2>
+    <p class="description">Üdvözöljük a Kreatív Tudás Egyetemén!
+        <br>
+        <br>
+        Egy modern és dinamikus egyetem vagyunk, ahol a kreativitás, tudás és innováció találkoznak. Az itt eltöltött évek garantáltan felejthetetlen élményekkel töltenek el. A "Kreatív Tudás Egyeteme" arra törekszik, hogy nem csak ismereteket adjon, hanem készségeket és tapasztalatot is. Minden hallgató számára kötelezőek a vizsgák, hiszen hisszük, hogy a kihívásokon keresztül érhetjük el a legnagyobb szakmai és személyes fejlődést. Kampuszunk modern felszereltséggel és inspiráló környezettel várja a hallgatókat. Oktatóink elkötelezettek az oktatás minősége iránt, és arra törekszünk, hogy minden hallgató kihozza magából a legjobbat, ennek érdekében addig hirdetünk vizsgákat, amíg mindenki át nem megy. Ha valakinek nem sikerült egy vizsga, semmi gond! Akárhányszor újra lehet próbálni, akár minden nap. Hiszünk benne, hogy idővel mindenkinek sikerül minden vizsgája.
+        <br>
+        <br>
+        Csatlakozz hozzánk, és légy részese a "Kreatív Tudás Egyeteme" kivételes közösségének!</p>
+    <img src="img/university.jpg" id="university-img" alt="university">
+
+    <h2>Kurzusaink</h2>
+    <br>
+    <table id="course-table">
+        <tr>
+            <th>Tárgy</th>
+            <th>Oktató</th>
+            <th>Időpont</th>
+        </tr>
+        <tr>
+            <td>Matematika</td>
+            <td>
+                <img src="img/professor1.jpg" alt="professor1">
+                <p class="prof-name">Prof. Merlin</p>
+                <p class="prof-description">A varázslatos matematika mestere, aki mindent ért a számok nyelvén.</p>
+            </td>
+            <td>Kedd 10:00 - 12:00</td>
+        </tr>
+        <tr>
+            <td>Történelem</td>
+            <td>
+                <img src="img/professor2.jpg" alt="professor2">
+                <p class="prof-name">Prof. Isabella</p>
+                <p>Az időutazó történelemkutató, aki az elmúlt korok titkait fedezte fel.</p>
+            </td>
+            <td>Csütörtök 14:00 - 16:00</td>
+        </tr>
+        <tr>
+            <td>Kreatív alkotás</td>
+            <td>
+                <img src="img/professor3.jpg" alt="professor3">
+                <p class="prof-name"> Prof. Eirik</p>
+                <p class="prof-description">A mágikus inspiráció mester, aki képzeletünket az égig emeli.</p>
+            </td>
+            <td>Hétfő 11:00 - 13:00</td>
+        </tr>
+    </table>
+
+    <h2>Vélemények</h2>
+    <div class="quote">"Kreatív Tudás Egyeteme" olyan hely, ahol az álmok valóra válnak. Itt nem csak tudást szereztem, hanem egy életre szóló tapasztalatot is.
+        A kötelező vizsgák mindig kihívások elé állítottak, de ezen keresztül változtam meg, és találtam meg igazi szenvedélyemet.<p class="quote-name">Anita</p></div>
+    <hr>
+    <div class="quote">Örülök, hogy ezen az egyetemen tanulhattam. Ennek köszönhetően kalkulusból is átmentem a 753. vizsgámon. Igaz, több mint két évbe telt, de megérte.
+        Szerintem felveszem a kalkulus 2-t is.<p class="quote-name">Márton</p></div>
+
+    <h2>Vizsga regisztráció</h2>
+    <form id="exam-form">
+        <label>Név:
+            <input type="text"/>
+        </label>
+        <label>Vizsga választás
+            <select>
+                <option selected>Válassz egy vizsgát</option>
+                <option>Matematika vizsga</option>
+                <option>Történelem vizsga</option>
+                <option>Kreatív alkotás vizsga</option>
+            </select>
+        </label>
+        <label>E-mail cím
+            <input type="email"/>
+        </label>
+        <label>Részletes jelentkezés
+            <textarea placeholder="Miért szeretne jelentkezni a vizsgára?" rows="4"></textarea> <br/>
+        </label>
+        <input type="submit" value="Regisztráció"/>
+    </form>
+
+    <a id="move-to-top" href="#ajdi">↑</a>
+
+</main>
+
+</body>
+</html>

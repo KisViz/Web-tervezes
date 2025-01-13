@@ -1,0 +1,225 @@
+body {
+    background-image: url("../img/maszatosfeher.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+#fejlec-header {
+    background-color: rgb(208, 168, 63);
+    display: flex;
+    align-items: center;
+}
+
+#fejlec-nav{
+    background-color: rgb(208, 168, 63);
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+#fejlec-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#nev {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#fejlec-nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#fejlec-header div a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.fejlec-nav-nyitos {
+    padding: 14px;
+    font-size: 20px;
+}
+
+.fejlec-nav-kepes {
+    padding: 8px;
+    font-size: 20px;
+}
+.fejlec-nav-nyitos, .fejlec-nav-kepes {
+    transition: background-color 0.3s;
+}
+
+
+.fejlec-nav-nyitos:hover, .fejlec-nav-kepes:hover {
+    background-color: rgb(157, 132, 48);
+    transition: background-color 0.3s;
+}
+
+#fejlec-nav img {
+    margin-right: 5px;
+    padding: 3px;
+}
+
+
+
+.box {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 50%;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3% auto;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(157, 132, 48);
+    font-size: 60px;
+}
+
+.empty-cart {
+    text-align: center;
+    color: rgb(208, 168, 63);
+}
+
+.empty-cart p {
+    font-size: 30px;
+}
+
+.empty-cart:before {
+    content: "\1F6D2";
+    font-size: 60px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: rgb(208, 168, 63);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 300px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(157, 132, 48);
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.konyvek {
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; /* Hozzáadva: Ha túl sok elem van a konténerben, akkor több sorban jelenjenek meg */
+}
+
+.kosar-kep {
+    flex: 0 0 auto;
+    margin:0 0 0 30px;
+    display: flex;
+    float: left;
+    border: 1px solid black;
+}
+
+.kosar-nagy {
+    padding-top: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.kosar-kep img {
+    max-width: 100px;
+    height: auto;
+}
+
+.kosar-cim {
+    flex: 1 1 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.kosar-ar {
+    flex: 0 0 auto;
+    font-size: 20px;
+    text-align: right;
+}
+
+.gombok {
+    flex: 1 1 100%; /* Hozzáadva: A gombok div tiszta szélességet fog elfoglalni */
+    display: flex;
+    justify-content: space-between; /* Hozzáadva: A gombokat jobbra igazítjuk */
+    align-items: center; /* Hozzáadva: Az elemeket függőlegesen középre igazítjuk */
+    margin-top: 10px; /* Hozzáadva: Margó a tetejéhez */
+}
+
+.gombok p {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.kosar-torles {
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: rgb(208, 168, 63);
+    margin-left: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.kosar-torles:hover {
+    background-color: rgb(157, 132, 48);
+    transition: background-color 0.3s;
+}
+
+
+.rendeles {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(208, 168, 63);
+    font-weight: bold;
+    display: block;
+    margin: 20px auto 10px auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.rendeles:hover {
+    background-color: rgb(157, 132, 48);
+}

@@ -1,0 +1,171 @@
+body{
+    background-image: url("../img/maszatosfeher.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+/*fejlec----------------------------------------------------------*/
+
+#fejlec-header {
+    background-color: rgb(208, 168, 63);
+    display: flex;
+    align-items: center;
+}
+
+#fejlec-nav{
+    background-color: rgb(208, 168, 63);
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+#fejlec-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#nev {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#fejlec-nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#fejlec-header div a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.fejlec-nav-nyitos {
+    padding: 14px;
+    font-size: 20px;
+}
+
+.fejlec-nav-kepes {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.fejlec-nav-nyitos, .fejlec-nav-kepes {
+    transition: background-color 0.3s;
+}
+
+.fejlec-nav-nyitos:hover, .fejlec-nav-kepes:hover {
+    background-color: rgb(157, 132, 48);
+    transition: background-color 0.3s;
+}
+
+#fejlec-nav img {
+    margin-right: 5px;
+    padding: 3px;
+}
+
+/*oldal---------------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cella {
+    margin-top: 8%;
+    width: 45%;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+#konyv img {
+    width: 320px;
+    margin-left: auto;
+}
+
+
+#reg-form {
+    width: 320px;
+    margin-right: auto;
+    border: 2px solid rgb(208, 168, 63);
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#form-mainLabel {
+    font-weight: bolder;
+    font-size: 200%;
+    color: rgb(208, 168, 63);
+    text-align: left;
+}
+
+#form-login{
+    text-align: center;
+    font-size: 80%;
+    font-weight: normal;
+}
+
+#reg-form label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#reg-form input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(208, 168, 63);
+    font-weight: bold;
+    display: block;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(157, 132, 48);
+}
+
+#roll {
+    text-decoration: none;
+    color: black;
+}
+
+#toReg {
+    color: rgb(187, 173, 116);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#toReg:hover {
+    color: rgb(157, 132, 48);
+}

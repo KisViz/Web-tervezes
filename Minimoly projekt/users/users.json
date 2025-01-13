@@ -1,0 +1,46 @@
+[
+    {
+        "felhasznalonev": "varga",
+        "admin": true,
+        "orszag": "Magyarország",
+        "iranyitoszam": "7696",
+        "varos": "Nagylak",
+        "cim": "Pacsirta u. 25",
+        "email": "vargadora1907@gmail.com",
+        "telefon": "06307589625",
+        "jelszo": "$2y$10$3WkK9abSKEICvZA5\/tecZ.HfHk\/RzTJ5l0newvbWHpDZgdccussLy"
+    },
+    {
+        "felhasznalonev": "alb",
+        "admin": true,
+        "orszag": "Magyarország",
+        "iranyitoszam": "7696",
+        "varos": "Szeged",
+        "cim": "Kárász u. 5.",
+        "email": "bkuki0610@gmail.com",
+        "telefon": "06307589626",
+        "jelszo": "$2y$10$uU.p4\/Zx4klUePvbnOiotu\/uspkPN6U9hcMd1QjQ8CmQewo9V07ty"
+    },
+    {
+        "felhasznalonev": "pelda",
+        "admin": false,
+        "orszag": "asd",
+        "iranyitoszam": "55",
+        "varos": "ad",
+        "cim": "dadad",
+        "email": "nem@gma.m",
+        "telefon": "555",
+        "jelszo": "$2y$10$RfLbJdPb.OS6oz9kbVaFR.tGQ287gAlTE14dNC6VS4qpSppivs6Z2"
+    },
+    {
+        "felhasznalonev": "mogyoro",
+        "admin": false,
+        "orszag": "Magyarország",
+        "iranyitoszam": "7696",
+        "varos": "Nagylak",
+        "cim": "Pacsirta u. 25",
+        "email": "mizu@gmail.com",
+        "telefon": "06307589625",
+        "jelszo": "$2y$10$8K9MDVTvD6HFfE94gN\/Np.gsygdF2v1NR7gWeD78OFQx1yLgbWQ6e"
+    }
+]

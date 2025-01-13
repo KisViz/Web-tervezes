@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "nev": "Én egy max hosszú szöveg vagyok:)",
+        "email": "verybig@cirtomail.com",
+        "telefon": "+36302587412",
+        "feedback": "A kék ég alatt a zöld fű mindig friss és üde. A nap sugarai simogatják az arcomat, miközben a szél finoman suhan át a hajamon. A természet csodálatosan gyönyörű és megnyugtató."
+    },
+    {
+        "id": 3,
+        "nev": "Yofone Linging",
+        "email": "socialcredit@csing.csung",
+        "telefon": "01234567890",
+        "feedback": "A naplemente szépsége lenyűgöző. A hegyek mögött eltűnő nap arany színekben fürdő látképet fest az égre. És én, a munkás, elbűvölve figyelem, miközben véget ér a nap."
+    },
+    {
+        "id": 5,
+        "nev": "Ezt töröld",
+        "email": "del@ete.me",
+        "telefon": "00000000000",
+        "feedback": "Április 20."
+    },
+    {
+        "id": 6,
+        "nev": "Karl Marx",
+        "email": "marx@avh.ru",
+        "telefon": "99999999999",
+        "feedback": "A munkások ereje a társadalom gerince. Munkájuk által formálják a világot, s a változás motorjai. Ez az erő forradalmat hoz, új rendszert teremt."
+    }
+]
